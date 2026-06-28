@@ -12,7 +12,7 @@ public class AscendingArray {
         {
             for(int j=i+1;j<n;j++)
             {
-                if(arr[i]<arr[j])  // for descending there is only change use greater than sign
+                if(arr[i]<arr[j])  // for descending there is only change i.e. use greater than sign
                 {
                     int temp = arr[i];
                     arr[i] = arr[j];
